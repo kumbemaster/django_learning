@@ -1,0 +1,25 @@
+{% extends 'main/home.html' %}
+
+{% block title%} Services {% endblock %}
+
+{% block content %}
+<body>
+    <h1>
+        Our servces include -
+    </h1>
+    <p>         
+        <ol> 
+            <li>Baking </li>
+            <li>Tailoring of women's clothing</li>
+            <li> Cake and small chops </li>
+            <li> Zobo drinks </li>
+            <li>Parfait </li> 
+        </ol>
+    </p>
+
+    <p>
+        <a href="{% url 'main:home' %}"> Return to Home Page</a>
+    </p>
+</body>
+{% endblock %}
+</html>

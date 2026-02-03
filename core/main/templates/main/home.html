@@ -16,8 +16,13 @@
 </head>
 <body>
     <h1>Home Page</h1>
+    
 
 <a href="{% url 'main:product' %}">View Products</a><br><br>
+<a href="{% url 'about:about' %}">Learn more about us</a><br><br>
+<a href="{% url 'blog:blog' %}">Visit our Blog</a><br><br>
+<a href="{% url 'services:services' %}">Check out Our Services</a><br><br>
+<a href="{% url 'contact:contact' %}">Contact Us Now</a><br><br>
 
 <a href="{% url 'main:product_details' 5 %}"> View Product 5 </a>
     <h1>Welcome to Our Marketplace</h1>
